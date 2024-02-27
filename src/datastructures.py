@@ -53,7 +53,6 @@ class FamilyStructure:
         for i, m in enumerate(self._members):
             if m["id"] == id:   
                 self._members[i] = member
-
     def get_member(self, id):
         # fill this method and update the return
         for member in self._members:
